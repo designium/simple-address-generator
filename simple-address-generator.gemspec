@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["designium@gmail.com"]
   gem.description   = "simple-address-generator allows you to create a complete Address model with fields and two main plugins that geocode address into coordinates and a Google Maps view with custom makers. To use, just add this gem to your Gemfile and then in your Rails 3 application, run: rails g simple_address_generator. Then run rails s and see in your browser http://localhost:3000/addresses."
   gem.summary       = "simple-address-generator allows you to create a complete Address model integrated to Google Maps."
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/designium/simple-address-generator"
   gem.email         = 'designium+simple@gmail.com'
 
   gem.files         = `git ls-files`.split($\)
