@@ -4,7 +4,7 @@ simple-address-generator is a Rails 3 generator that creates a small scaffold cl
 
 # Demo
 
-[simple-address-generator DEMO]: http://young-fire-9461.heroku.com/addresses
+   http://young-fire-9461.heroku.com/addresses
 
 ## Installation
 
