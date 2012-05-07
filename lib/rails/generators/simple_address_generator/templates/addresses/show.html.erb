@@ -1,0 +1,57 @@
+<p id="notice"><%= notice %></p>
+<p>
+  <b>Address line 1:</b>
+  <%= @address.address_line_1 %>
+</p>
+
+<p>
+  <b>Address line 2:</b>
+  <%= @address.address_line_2 %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @address.city %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @address.state %>
+</p>
+
+<p>
+  <b>Postal code:</b>
+  <%= @address.postal_code %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%= @address.country %>
+</p>
+
+<p>
+  <b>Telephone number:</b>
+  <%= @address.telephone_number %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%= @address.latitude %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%= @address.longitude %>
+</p>
+
+<p>
+  <b>Full Address:</b>
+  <%= @address.full_address %>
+</p>
+
+<p>
+<%= gmaps("map_options" => { "center_longitude" => 180, "zoom" => 1, "auto_adjust" => true}, "markers" => {"data" => @json, "options" => {"rich_marker" => true } }) %>
+</p>
+
+<%= link_to 'Edit', edit_address_path(@address) %> |
+<%= link_to 'Back', addresses_path %>

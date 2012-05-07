@@ -1,0 +1,6 @@
+******************************************************************
+  simple-address-generator is Rails 3 Address class generator
+******************************************************************
+
+Example:
+    rails g simple-address-generator
