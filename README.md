@@ -1,5 +1,7 @@
 # simple-address-generator
 
+[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/designium/simple-address-generator)
+
 simple-address-generator is a Rails 3 generator that creates a small scaffold class called address that contains all the inputs needed for global address storage system. It is also ready with geocoding and Google maps integration.
 
 # Demo
