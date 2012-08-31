@@ -18,12 +18,6 @@ Gem::Specification.new do |gem|
 
   gem.files         = Dir["{lib}/**/*", "[A-Z]*"]
 
-  gem.post_install_message = "***************************************"
-  gem.post_install_message = "Thanks for using simple-image-uploader "
-  gem.post_install_message = "                                       "
-  gem.post_install_message = "Any problem? Suggestion? Send an email:"
-  gem.post_install_message = "  email: designium+simple@gmail.com    "
-  gem.post_install_message = "***************************************"
-
+  gem.post_install_message = "***************************************\nThanks for using simple-image-uploader \n                                       \nAny problem? Suggestion? Send an email:\n  email: designium+simple@gmail.com    \n***************************************\n"
 
 end
